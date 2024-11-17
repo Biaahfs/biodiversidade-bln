@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+
+}
+body > header{
+    background-color:rgb(25, 25, 104);
+    color:bisque;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles{ display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;}
+
+.articles article img{
+    height: 180px;
+}
+
+.articles article{width: 30%;}
+
+section{
+    padding: 16px 0 16px 0;
+    display: inline;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin: 16px 0;
+}
